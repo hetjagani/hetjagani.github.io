@@ -1,25 +1,63 @@
-import logo from './logo.svg';
-import './App.css';
+import { AppBar, Toolbar, Typography, Button } from "@material-ui/core";
+import { Route, Switch } from "react-router";
+import { BrowserRouter, Link} from "react-router-dom";
+import "./App.css";
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Experience from "./components/Experience";
+import Projects from "./components/Projects";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const toolBarStyle = {
+        display: "flex",
+        justifyContent: "space-between",
+    };
+
+    return (
+        <div className="App">
+            <BrowserRouter>
+                <AppBar position="static">
+                    <Toolbar style={toolBarStyle}>
+                        <div>
+                            <Typography variant="h5"><Link class="btn-link" to="/">HET JAGANI</Link></Typography>
+                        </div>
+                        <div>
+                            <Button color="inherit">
+                                <Link class="btn-link" to="/about">ABOUT</Link>
+                            </Button>
+                            <Button color="inherit">
+                                <Link class="btn-link" to="/projects" color="inherit">PROJECTS</Link>
+                            </Button>
+                            <Button color="inherit">
+                                <Link class="btn-link" to="/experience">EXPERIENCE</Link>
+                            </Button>
+                            <Button color="inherit">
+                                <Link class="btn-link" to="/contact">CONTACT</Link>
+                            </Button>
+                        </div>
+                    </Toolbar>
+                </AppBar>
+
+                <Switch>
+                    <Route exact path="/">
+                        <About />
+                    </Route>
+                    <Route path="/about">
+                        <About />
+                    </Route>
+                    <Route path="/projects">
+                        <Projects />
+                    </Route>
+                    <Route path="/experience">
+                        <Experience />
+                    </Route>
+                    <Route path="/contact">
+                        <Contact />
+                    </Route>
+                </Switch>
+            </BrowserRouter>
+        </div>
+    );
 }
 
 export default App;
