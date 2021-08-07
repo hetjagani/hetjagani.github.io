@@ -5,8 +5,10 @@ import { Document, Page } from "react-pdf/dist/esm/entry.webpack";
 const useStyles = makeStyles({
     container: {
         display: "flex",
+        justifyContent: "center",
         alignItems: "center",
         margin: "50px",
+        marginTop: "100px",
         flexDirection: "column",
     },
     link: {

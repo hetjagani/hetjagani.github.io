@@ -5,7 +5,7 @@ import Points from "./Points";
 
 const useStyles = makeStyles({
     card: {
-        width: "1300px",
+        width: "80%",
     },
     media: {
         height: "600px",
@@ -15,12 +15,8 @@ const useStyles = makeStyles({
         display: "flex",
         alignItems: "center",
         margin: "50px",
+        marginTop: "100px",
         flexDirection: "column",
-    },
-    skillsContainer: {
-        display: "flex",
-        justifyContents: "flex-start",
-        width: "1300px",
     },
 });
 
@@ -39,21 +35,20 @@ function About() {
             })
             .then((data) => {
                 setData(data);
-                const skillObj = data.filter((item) => item.type === "skills")
-                setSkillsList(skillObj[0].data)
+                const skillObj = data.filter((item) => item.type === "skills");
+                setSkillsList(skillObj[0].data);
             })
             .catch((err) => {
                 setData([{ type: "header", data: "Something went wrong" }]);
             });
     }, []);
 
-
     return (
         <div className={classes.container}>
             <Card className={classes.card}>
                 <CardMedia
                     className={classes.media}
-                    image={process.env.PUBLIC_URL + "/images/het.jpg"}
+                    image="images/het.jpg"
                     title="Het Jagani"
                 />
                 <CardContent>

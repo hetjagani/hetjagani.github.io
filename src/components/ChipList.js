@@ -7,7 +7,7 @@ const useStyles = makeStyles({
     },
     container: {
         display: "flex",
-        width: "1300px",
+        width: "80%",
         flexWrap: "wrap",
         justifyContent: "center",
     },

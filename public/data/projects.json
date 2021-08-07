@@ -1,0 +1,42 @@
+{
+    "covid": {
+       "title": "COVID 19 Detection Based on CT Scan",
+       "image": "images/covid.jpg",
+       "description": "<p> For the task of covid 19 prediction we build dataset by combining multiple publicly available datasets which resulted into hundreds of lungs CT Scan images. Various data pre-processing and data mining techniques are used on these datasets and trained classification models. Specifically we used RESNET-50 pre-trained model for feature extraction from images. Then we trained SVM, KNN and DNN on the extracted features by applying PCA and without PCA. Our approach achieves highest accuracy of 89% and highest F1 score of 87.7% in diagnosing COVID-19 from CT scans even though the dataset is limited.  </p> <b>Skills Used: </b> Python, Machine Learning Algorithms, Numpy, Pandas, Tensorflow<br> <b>GitHub: </b> <a href=\"https://github.com/hetjagani/COVID-CT-Diagnosis\">COVID CT Diagnosis</a><br> <b>Report: </b> <a href=\"documents/covid_report.pdf\">COVID CT Diagnosis</a>"
+    },
+    "ele_com": {
+        "title": "Electronics Company Project Management",
+        "image": "images/iot.webp",
+        "description": "<p> We studied the requirements of the Electronics Company which can be described as a vendor of equipment related to robotics, electronics and embedded systems. It also provides customer(individual) services such as DIY Embedded systems projects, buying equipment and customer(organization) services such as setting up labs based on IOT, embedded systems, robotics, service maintenance alongside custom projects associated with an organization.  </p> <p>  An application which can help make business decisions, monitor status of work, manage company’s data and teams was developed as part of this project. The intended users are employees (General Manager, Project Manager, Inventory Manager and Employee) from the company’s side.  </p> <p> Hosting of the web application is done on http://dbms.hetjagani.com/ElectronicsCompany. For hosting we have a PHP server which serves our application code and is connected to MySQL database server, all hosted by PaaS provider IONOS.  </p> <b>Skills Used: </b> PHP, Bootstrap, MySql, Database Transactions, Web Development(HTML, CSS, JS), Git/Github<br> <b>GitHub: </b> <a href=\"https://github.com/hetjagani/ElectronicsCompany\">Electronics Company</a>"
+    },
+    "ccc": {
+        "title": "Cloud Cost Calculator",
+        "image": "images/ccc.webp",
+        "description": "<p> ​This project is a very basic Cloud Cost Calculator. AWS Pricing APIs are utilized to fetch various AWS product's information.  User can create their whole AWS cloud inventory and can save it to pdf for organizational use etc. Also the user can generate price report, which gives approximate estimate of their AWS resource costs. In this project Angular and bootstrap is used for frontend development. The main intention of the project was to learn Angular and how to use the AWS Javascript SDK.  </p> <p>  This application is intended to deploy in AWS Ec2 instance with Nginx server. Ansible is used to write infrastructure as code.  Various ansible playbooks are created to automate the creation of AWS resources and also automate the deployment of the application on those resources. User just has to run site.yml playbook after configuring AWS Keys.  </p> <b>Skills Used: </b> Angular, Typescript, AWS Cloud Automation, Docker, Ansible, Web Development (HTML, CSS, JS). <br> <b>GitHub: </b> <a href=\"https://github.com/hetjagani/CloudCostCalculator\">CloudCostCalculator</a>"
+    },
+    "vidhyapak": {
+        "title": "Vidhyapak - Video Streaming Application",
+        "image": "images/vidhyapak.png",
+        "description": "<p> ​A fully functional scalable, reliable, secure cloud based web application is developed as part of BTech final year project. This project is developed with Spring Boot and is deployed in AWS.  </p> <p>  The project consist of a web application in which the registered Professors can add courses and upload videos for the courses. Also the professors can add notes or other documents related to the videos. These courses can be accessed by the students by creating the student account. The application was desgned and created to deploy in our college campus (School of Engineering and Applied Science, Ahmedabad University).                </p> <b>Skills Used: </b> ​JAVA, MySQL, Kubernetes, Docker, AWS Cloud Administration, Spring Boot, Web Development (HTML, CSS, JS). <br> <b>GitHub: </b> <a href=\"https://github.com/hetjagani/Vidhyapak-VideoStreamingApplication\">Vidhyapak-Video Streaming Application</a>"
+    },
+    "hms": {
+        "title": "Hospital Management System",
+        "image": "images/hospital.jpg",
+        "description": "<p> ​As a part of software engineering project, a web application was developed to manage various resources of hospital. Idea was to create a central web application in which all the users in hospital such as doctor, patient, nurse and medical store chemist could login and manage various resources of hospital.  </p> <p>  Software engineering processes such as Agile development is followed while developing the application for faster and quicker development of the software.  </p> <b>Skills Used: </b> ​Software Engineering, PHP, MySql, Web Development (HTML, CSS, JS). <br> <b>GitHub: </b> <a href=\"https://github.com/hetjagani/Hospital-Management-System\">Hospital Management System</a>"
+    },
+    "iot": {
+        "title": "IOT based Automatic Toll Collection",
+        "image": "images/toll.png",
+        "description": "<p> ​Inspired from the current challan collection system, an automated toll collection system was developed. The system consist of a camera connected to RaspberryPi which would capture Licence Plate of the car and after number plate detection, the owner is charged with toll tax.  This system is similar to challan system where postpaid payment system is used.  </p> <p>  A website is created in which vehicle owner can see the information about the tolls he/she has to pay.  </p> <b>Skills Used: </b> ​RaspberryPi programming, Python, PHP, MySql, Web Development (HTML, CSS, JS). <br> <b>Report: </b> <a href=\"documents/Toll_Report.pdf\" download>Download Here</a>"
+    },
+    "face": {
+        "title": "Face Recognition and Emotion Detection",
+        "image": "images/ml.jpeg",
+        "description": "<p> In this project face snapshots of each student with 7 different facial expressions is collected this data was used to train a machine learning model for facial recognition and emotion detection.  Various Machine Learning techniques were used to achieve better performance and accuracy.  Data augmentation and preprocessing of the dataset is done, to increase the size and diversity of dataset.                </p> <b>Skills Used: </b> ​Python, Tensorflow, Machine Learning. <br> <b>Report: </b> <a href=\"documents/ML_Report.pdf\" download>Download Here</a> <br> <b>GitHub: </b> <a href=\"https://github.com/hetjagani/Face-Recognition-Project\">Face Recognition Project</a>" 
+    },
+    "fms": {
+        "title": "Food Management System",
+        "image": "images/food.webp",
+        "description": "<p> In this project desktop application was developed to manage the leftover food in party or any such events. The idea was that any party owner can list the food items that are remaining in his/her party. And then any interested party such as NGOs can collect that food item and can distribute it in poor people. Hence, this software was intended to connect the individuals with access food to bodies such as NGOs which distribute food in poor population.                </p> <b>Skills Used: </b> JAVA, MySql. <br> <b>Report: </b> <a href=\"documents/food_mngt_report.pdf\" download>Download Here</a> <br> <b>GitHub: </b> <a href=\"https://github.com/hetjagani/FoodManagementSystem\">Food Management System</a>"
+    }
+}
