@@ -21,7 +21,7 @@ function ChipList({ data }) {
         return (
             <div className={classes.container}>
                 {data.map((item) => {
-                    return <Chip className={classes.chipStyle} label={item} />;
+                    return <Chip key={item} className={classes.chipStyle} label={item} />;
                 })}
             </div>
         );

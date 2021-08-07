@@ -6,6 +6,7 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
+import Resume from "./components/Resume";
 
 function App() {
     const toolBarStyle = {
@@ -34,6 +35,9 @@ function App() {
                             <Button color="inherit">
                                 <Link class="btn-link" to="/contact">CONTACT</Link>
                             </Button>
+                            <Button color="inherit">
+                                <Link class="btn-link" to="/resume">RESUME</Link>
+                            </Button>
                         </div>
                     </Toolbar>
                 </AppBar>
@@ -53,6 +57,9 @@ function App() {
                     </Route>
                     <Route path="/contact">
                         <Contact />
+                    </Route>
+                    <Route path="/resume">
+                        <Resume />
                     </Route>
                 </Switch>
             </BrowserRouter>

@@ -57,12 +57,12 @@ function About() {
                     title="Het Jagani"
                 />
                 <CardContent>
-                    {data.map((item) => {
+                    {data.map((item, idx) => {
                         switch (item.type) {
                             case "header":
-                                return <h1>{item.data}</h1>;
+                                return <h1 key={idx}>{item.data}</h1>;
                             case "list":
-                                return <Points data={item.data} />;
+                                return <Points key={idx} data={item.data} />;
                             default:
                                 return "";
                         }

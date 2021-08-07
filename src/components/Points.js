@@ -11,7 +11,7 @@ function Points({ data }) {
                 <List dense={true}>
                     {data.map((item) => {
                         return (
-                            <ListItem>
+                            <ListItem key={item}>
                                 <ArrowRightSharp />
                                 <span dangerouslySetInnerHTML={{ __html: item }}></span>
                             </ListItem>
