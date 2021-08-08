@@ -1,6 +1,8 @@
 import React from "react";
 import { Button, makeStyles } from "@material-ui/core";
-import { Document, Page } from "react-pdf/dist/esm/entry.webpack";
+import { Document, Page, pdfjs } from "react-pdf/dist/umd/entry.webpack";
+
+pdfjs.GlobalWorkerOptions.workerSrc = 'pdf.worker.min.js';
 
 const useStyles = makeStyles({
     container: {
@@ -22,7 +24,7 @@ function Resume() {
 
     return (
         <div className={classes.container}>
-            <Document file="./documents/Resume.pdf">
+            <Document file="documents/Resume.pdf">
                 <Page pageNumber={1} />
             </Document>
             <Button variant="contained" color="primary">
