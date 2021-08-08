@@ -5,8 +5,6 @@ import {
     CardContent,
     CardMedia,
     Dialog,
-    Grid,
-    IconButton,
     makeStyles,
     Typography,
     withStyles,
@@ -14,8 +12,7 @@ import {
 import MuiDialogTitle from "@material-ui/core/DialogTitle";
 import MuiDialogContent from "@material-ui/core/DialogContent";
 import MuiDialogActions from "@material-ui/core/DialogActions";
-import CloseIcon from "@material-ui/icons/Close";
-import React, { useState, useEffect } from "react";
+import React from "react";
 
 
 const useStyles = makeStyles((theme) => ({
