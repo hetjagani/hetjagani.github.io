@@ -2,7 +2,7 @@ import { AppBar, Toolbar, Typography, Button, Menu, MenuItem } from "@material-u
 import { Menu as MenuIcon } from "@material-ui/icons";
 import { useEffect, useState } from "react";
 import { Route, Switch } from "react-router";
-import { BrowserRouter, Link } from "react-router-dom";
+import { HashRouter, Link } from "react-router-dom";
 import "./App.css";
 import About from "./components/About";
 import Contact from "./components/Contact";
@@ -39,7 +39,7 @@ function App() {
 
     return (
         <div className="App">
-            <BrowserRouter>
+            <HashRouter>
                 <AppBar
                     position="fixed"
                     style={{ width: width}}
@@ -147,7 +147,7 @@ function App() {
                         <Resume />
                     </Route>
                 </Switch>
-            </BrowserRouter>
+            </HashRouter>
         </div>
     );
 }
