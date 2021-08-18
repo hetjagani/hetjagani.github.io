@@ -1,0 +1,53 @@
+[
+    {
+        "type": "header",
+        "data": "Education"
+    },
+    {
+        "type": "list",
+        "data": [
+            "<strong>MS in Computer Software Engineering:</strong> San Jose State University",
+            "<strong>BTech in Information and Communication Technology:</strong> School of Enginnering and Applied Science, Ahmedabad University"
+        ]
+    },
+    {
+        "type": "header",
+        "data": "Interests"
+    },
+    {
+        "type": "list",
+        "data": [
+            "Interested in architecture and development of Backend Systems (well you can guess from the website 😋), DevOps and Distributed Applications.",
+            "Like coding systems in modern programming languages (such as Go & Rust) and am generally curious about inner workings of low level systems softwares."
+        ]
+    },
+    {
+        "type": "header",
+        "data": "Values"
+    },
+    {
+        "type": "list",
+        "data": [
+            "🍎 Curious and Interested in solving hard problems.",
+            "📐 Emphasis more on Designing and Modeling of problem.",
+            "🙌 Collaboration and consensus."
+        ]
+    },
+    {
+        "type": "header",
+        "data": "Goals"
+    },
+    {
+        "type": "list",
+        "data": [
+            "Contribute in global open source projects such as Linux or Kubernetes etc.",
+            "Work in tech companies which make difference in world by their engineering products."
+        ]
+    },
+    {
+        "type": "skills",
+        "data": [
+            "Golang", "Javascript", "NodeJS/Express", "React", "JAVA", "Spring Boot", "Microservices", "Docker", "Kubernetes", "Ansible", "Python", "C/C++", "Amazon Web Services", "System Administration (Linux)", "GitOps and DevOps (CI/CD)", "MySQL", "PostgresSQL", "MongoDB", "Web Development (HTML, CSS, JS)", "Redis", "Event Queues (Nats/Kafka)", "GraphQL"
+        ]
+    }
+]
