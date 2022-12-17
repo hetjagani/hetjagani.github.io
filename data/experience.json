@@ -1,4 +1,18 @@
 [
+     {
+        "company": "San Jose State University",
+        "image": "images/sjsu.png",
+        "position": "Golang Developer",
+        "duration": "January 2022 to December 2022",
+        "description": "Worked on implementation of library in Golang for Dempster's Rule of combination for evidential analysis for pharmaceutical drug development. The library was initially developed in Python, and performed poorly for large amount of data. As Golang has better support for parallelization, the research work intended to implement algorithm in parallel to improve the performance of analysis for large amount of data. I contributed in improving performance of Dempster's Rule algorithm by implementing it in parallel. Also Helped to gather timing data from Golang to prepare proposal for further research in improving algorithm performance."
+    },
+    {
+        "company": "Amazon Robotics",
+        "image": "images/amazon_robotics.png",
+        "position": "Software Development Engineer Intern",
+        "duration": "June 2022 to August 2022",
+        "description": "Part of Virtual Systems organization team that develops a Simulator tool to test production software by simulating warehouse environment. The team helps data scientists to run simulations of software and generate report/data for further analysis to improve the performance of warehouse management. <ul> <li>Was part of virtual services team that owns a simulation tool to test production software by running simulation of warehouse environment virtually. The tool helps data scientists to run simulations of warehouses and generate analytics reports from the runs.</li> <li>Worked on integration of the tool with a existing launch service being used by team's customers, to provide more better customer experience for team's product and also reduce development cost to add new warehouse types to existing system.</li>  </ul>"
+    },
     {
         "company": "Factly.in",
         "image": "images/factly-logo.png",
