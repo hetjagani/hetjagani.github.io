@@ -1,7 +1,7 @@
 [
      {
         "company": "San Jose State University",
-        "image": "images/sjsu.png",
+        "image": "images/sjsu.jpg",
         "position": "Golang Developer",
         "duration": "January 2022 to December 2022",
         "description": "Worked on implementation of library in Golang for Dempster's Rule of combination for evidential analysis for pharmaceutical drug development. The library was initially developed in Python, and performed poorly for large amount of data. As Golang has better support for parallelization, the research work intended to implement algorithm in parallel to improve the performance of analysis for large amount of data. I contributed in improving performance of Dempster's Rule algorithm by implementing it in parallel. Also Helped to gather timing data from Golang to prepare proposal for further research in improving algorithm performance."
